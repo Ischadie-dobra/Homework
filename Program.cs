@@ -21,7 +21,7 @@ Console.WriteLine(Number(num));
 //645 -> 5
 //78 -> третьей цифры нет
 //32679 -> 6
-
+/*
 int ThirdNumber(int num)
 {
     while(num > 999)
@@ -47,3 +47,31 @@ if (ValidatNumber(num));
 {
 Console.WriteLine(ThirdNumber(num));
 }
+*/
+
+
+
+//Task 15. Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.
+
+//6 -> да
+//7 -> да
+//1 -> нет
+/*
+void IsDayWeek(int number)
+{
+    if (number == 6 || number == 7)
+    {
+        Console.WriteLine("Да, это выходной");
+    }
+    else
+    if (number > 1 || number < 7)
+    {
+        Console.WriteLine("Нет, это не выходной");
+    }
+
+}
+
+Console.Write("Input a day number: ");
+int numb = Convert.ToInt32(Console.ReadLine());
+IsDayWeek(numb);
+*/
